@@ -11,8 +11,8 @@ namespace ChineseBrickRelief
 {
     public class Mod : IMod
     {
-        private static readonly ILog log = LogManager.GetLogger($"{nameof(ChineseBrickRelief)}").SetShowsErrorsInUI(false);
-        internal static Logger Logger = new(log, false);
+        private static ILog log = LogManager.GetLogger($"{nameof(ChineseBrickRelief)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
+        //internal static Logger Logger = new(log, false);
 
         private string pathToModFolder;
 
@@ -22,9 +22,9 @@ namespace ChineseBrickRelief
 
             pathToModFolder = $"{new FileInfo(asset.path).DirectoryName}";
 
-            ExtraAssetsImporter.EAI.LoadCustomAssets(pathToModFolder);
+            ExtraLocalization.LoadLocalization(log, Assembly.GetExecutingAssembly(), false, nameof(ChineseBrickRelief));
 
-            ExtraLocalization.LoadLocalization(Logger, Assembly.GetExecutingAssembly());
+            ExtraAssetsImporter.EAI.LoadCustomAssets(pathToModFolder);
 
         }
 

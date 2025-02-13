@@ -1,6 +1,6 @@
 ﻿<Publish>
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="" />
+	<ModId Value="102122" />
 	<!--Name of the mod to display to players-->
 	<DisplayName Value="[KS] Chinese Brick Relief" />
 	<!--Short description of the mod-->
@@ -9,57 +9,62 @@
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 ### 🚨 PLEASE READ THE USAGE | KNOWN LIMITATIONS SECTIONS 🚨
-
+ 
 👷🏻 Want to bring traditional Chinese architecture to life? This pack is for you!
-
+ 
 ### 🎨 About the Pack
 The Chinese Brick Relief Decal Pack brings a touch of history and culture to Cities: Skylines II! Inspired by intricate brick carvings found in ancient temples, courtyards, and historic streets, these high-quality decals allow you to create authentic Chinese-inspired builds.
-
+ 
 Whether you're building a traditional village, an ancient city wall, a temple complex, or adding cultural charm to modern structures, these detailed relief patterns will elevate your designs.
-
+ 
 ### 📦 Contents of the Pack
 ✅ 20+ high-resolution brick relief decals with authentic carvings
 ✅ Various designs, including floral motifs, mythological creatures, geometric patterns, and calligraphy
 ✅ Ideal for temples, historic streets, courtyards, gates and walls
 ✅ Located in the “DECALS” tab for easy access
-
+ 
 ### 🔨 Usage
 🛠️ Recommended mods for best results: Move It, Extra Decals Tool, Procedural Objects, and Adaptive Networks
 🖌️ Apply decals to walls, floors, and other surfaces to recreate a historical look
 🏗️ Mix and match with other assets to blend tradition into modern designs
-
+ 
 ### 🛑 Known Limitations
 🚧 Some decals may slightly overlap textures due to the game's layering system
 🏗️ Decals may not conform perfectly to curved or sloped surfaces
 🎨 Color variations may differ depending on your graphics settings
-
-🌐 Localization
+ 
+### 🌐 Localization
 - English
 - Chinese Simplified
 - Chinese Traditional
-
+ 
 💡 Want to take your city to the next level? Try combining these decals with traditional Chinese architecture assets for a truly immersive experience!
-
+ 
 ### 💬 Questions? Need help? Drop a comment!
 
 If you're reading this, you just unlocked the achievement "Architect of Tradition" 🏯. Congratulations! 🎉
+ 
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="" />
+	<Screenshot Value="Properties/Screenshot01.jpg" />
+	<Screenshot Value="Properties/Screenshot02.jpg" />
+	<Screenshot Value="Properties/Screenshot03.jpg" />
+	<Screenshot Value="Properties/Screenshot04.jpg" />
+	<Screenshot Value="Properties/Screenshot05.jpg" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="0.1.0" />
+	<ModVersion Value="0.1.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="80529" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Chinese Brick Relief for China Region Packs" />
+	<ChangeLog Value="Update icon image" />
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
