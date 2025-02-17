@@ -1,0 +1,58 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="[KS] Chinese Graffiti" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Give your city a bold cultural edge with vibrant Chinese-style graffiti—perfect with China Packs!" />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+Bring urban energy and cultural flair to Cities: Skylines II with the Chinese Graffiti Pack! Inspired by the Guo Chao (国潮) movement, this pack features bold, vibrant street art blending traditional Chinese elements with modern graffiti aesthetics. Perfect for adding personality to city walls, alleyways, and commercial districts, these decals give your builds an edgy, contemporary vibe.
+
+🔥 Best paired with China Packs to create a fusion of tradition and modern street culture!
+
+✅ 10+ high-resolution (2K) graffiti decals featuring dragons, calligraphy, mythological creatures, and urban art.
+✅ Perfect for walls, storefronts, underpasses, and cultural hotspots.
+✅ Located in the "DECALS" tab for easy access.
+
+🔨 How to Use:
+🎨 Works great with Move It and Extra Detailing Tool
+🏙️ Apply to walls, streets and buildings to create a vibrant city atmosphere
+🔥 Combine with China Packs for a complete cultural street-style experience
+
+🛑 Known Limitations:
+🚧 Decals may not fully conform to curved or sloped surfaces
+🎨 Colors may appear different depending on your screen settings
+
+💬 Got questions? Need tips? Drop a comment!
+
+☕ Love this pack? Support my work on Ko-Fi or PayPal to help bring more awesome content!
+
+If you’re reading this, you've just unlocked the achievement “Chinese Street Art Pioneer” 🎨. Congrats! 🎉
+
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Screenshot1.jpg" />
+	<Screenshot Value="Properties/Screenshot2.jpg" />
+	<Screenshot Value="Properties/Screenshot3.jpg" />
+	<Screenshot Value="Properties/Screenshot4.jpg" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="0.1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.2.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="80529" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="New Version" />
+	<!--ChangeLog>
+	</ChangeLog-->
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+	<ExternalLink Type="discord" Url="https://discord.gg/XE5nBYskcd" />
+</Publish>
